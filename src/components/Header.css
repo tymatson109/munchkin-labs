@@ -1,0 +1,37 @@
+.header {
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.header__logo {
+  width: 220px;
+  height: 140px;
+}
+
+.header__logo > img {
+  align-items: baseline;
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.header__nav {
+  display: flex;
+  font-size: 21px;
+  font-family: Helvetica, sans-serif;
+}
+
+.header__navItem {
+  padding: 5px 15px;
+}
+
+.header__navItem:hover {
+  background-color: rgb(224, 224, 224);
+  padding: 5px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}

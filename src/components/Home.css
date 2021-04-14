@@ -1,0 +1,115 @@
+.home__main {
+  width: 100%;
+  background-image: url("https://static.wixstatic.com/media/af306a_825a672d4010400d887420f217ec37e0~mv2.jpg/v1/fill/w_1712,h_1300,fp_0.50_0.50,q_90/af306a_825a672d4010400d887420f217ec37e0~mv2.webp");
+  background-position: center;
+  height: 761px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.home__text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 80px 0 40px 0;
+}
+
+.home__text > h4 {
+  flex: 1;
+  font-size: 72px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
+}
+
+.home__text > p {
+  flex: 1;
+  line-height: 1.875em;
+  font-size: 21px;
+}
+
+.home__text > button {
+  width: 120px;
+  flex: 0;
+  line-height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.home__meep {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+}
+
+.home__meepText > h4 {
+  text-align: left;
+  font-size: 72px;
+  margin: 124px 0px 45px calc((100% - 560px) * 0.5);
+}
+
+.home__meepTextCol > h4 {
+  line-height: 1.41em;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.home__meepTextCol > p {
+  margin-bottom: 60px;
+}
+
+.home__meepCol {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home__meepImage > img {
+  width: 100%;
+  height: 872px;
+  object-fit: cover;
+}
+
+.home__footer {
+  background-color: black;
+  width: 100%;
+  height: 166px;
+}
+
+.home__footerContent {
+  margin-left: 25%;
+  margin-right: 15%;
+}
+
+.home__footerContent > h1 {
+  padding-top: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.home__footerContent > form > input {
+  background-color: black;
+  border: 1px solid red;
+  outline: none;
+  width: 75%;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.home__footerContent > form > input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.home__footerContent > form > input[type="text"] {
+  color: white;
+}
+
+.home__footerContent > form > button {
+  width: 150px;
+  height: 35px;
+  margin-left: 10px;
+}

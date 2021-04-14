@@ -1,0 +1,82 @@
+.jobs__form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.jobs__formDesc > h4 {
+  font-size: 72px;
+  line-height: 1.35em;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.jobs__formDesc > p {
+  line-height: 1.875em;
+  font-size: 21px;
+}
+
+.jobs__spacing {
+  font-size: 21px;
+  line-height: 1.875em;
+  color: white;
+}
+
+.jobs__listItem {
+  font-size: 21px;
+  line-height: 1.875em;
+}
+
+.jobs__formInput {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs__formInput > input {
+  width: 400px;
+  height: 40px;
+  padding: 3px 3px 3px 12px;
+  margin-bottom: 10px;
+}
+
+.jobs__position {
+  margin-bottom: 9px;
+}
+
+.jobs__radio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.jobs__radio > input {
+  width: 18px;
+  height: 18px;
+  filter: grayscale(1);
+}
+
+.jobs__radio > div {
+  margin-left: 15px;
+}
+
+.jobs__formInputRadio {
+  margin-top: 40px;
+}
+
+.jobs__formInput > button {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 142px;
+  height: 55px;
+}
+
+.home__meepTextCol > h4 {
+  font-size: 30px;
+}
+
+.home__meepTextCol > p {
+  text-align: left;
+  line-height: 1.75em;
+  font-size: 18px;
+}
