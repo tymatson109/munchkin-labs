@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/munchkin-labs/static/css/main.9b6bdb35.chunk.css",
+    "main.js": "/munchkin-labs/static/js/main.1784be34.chunk.js",
+    "main.js.map": "/munchkin-labs/static/js/main.1784be34.chunk.js.map",
+    "runtime-main.js": "/munchkin-labs/static/js/runtime-main.593d7b95.js",
+    "runtime-main.js.map": "/munchkin-labs/static/js/runtime-main.593d7b95.js.map",
+    "static/js/2.e0b5fe34.chunk.js": "/munchkin-labs/static/js/2.e0b5fe34.chunk.js",
+    "static/js/2.e0b5fe34.chunk.js.map": "/munchkin-labs/static/js/2.e0b5fe34.chunk.js.map",
+    "index.html": "/munchkin-labs/index.html",
+    "static/css/main.9b6bdb35.chunk.css.map": "/munchkin-labs/static/css/main.9b6bdb35.chunk.css.map",
+    "static/js/2.e0b5fe34.chunk.js.LICENSE.txt": "/munchkin-labs/static/js/2.e0b5fe34.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.593d7b95.js",
+    "static/js/2.e0b5fe34.chunk.js",
+    "static/css/main.9b6bdb35.chunk.css",
+    "static/js/main.1784be34.chunk.js"
+  ]
+}
